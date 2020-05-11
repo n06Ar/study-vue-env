@@ -1,0 +1,21 @@
+{
+  "name": "study-vue-env",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@bitbucket.org/arai_nobuhito/study-vue-env.git",
+  "author": "荒井脩人 <arai.nobuhito@willgate.co.jp>",
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.2",
+    "parcel": "^1.12.4",
+    "parcel-plugin-eslint": "^1.0.8-2",
+    "typescript": "^3.8.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
+  }
+}
