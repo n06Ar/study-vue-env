@@ -1,0 +1,11 @@
+version: '3'
+services:
+  node:
+    image: node:slim
+    container_name: node
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "1234:1234"
+    command: bash -c "yarn && yarn start"
